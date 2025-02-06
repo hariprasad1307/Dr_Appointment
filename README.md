@@ -56,7 +56,7 @@ DR. Appointment is a comprehensive hospital management system designed to facili
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hariprasad1307/dr.appointment
+   git clone https://github.com/hariprasad1307/Dr_Appointment
    ```
 2. Navigate to the project directory:
    ```bash
