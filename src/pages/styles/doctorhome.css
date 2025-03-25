@@ -1,0 +1,111 @@
+/* Doctor Home Container */
+.doctor-home-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Doctor Title */
+  .doctor-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1e3a8a;
+  }
+  
+  .doctor-specialty {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Navigation Container */
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Navigation Cards */
+  .nav-card {
+    width: 150px;
+    height: 120px;
+    background: linear-gradient(135deg, #60a5fa, #2563eb);
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .nav-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Icons in Navigation Cards */
+  .nav-icon {
+    font-size: 2rem;
+  }
+  
+  .nav-text {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  /* Appointments Section */
+  .appointments-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Appointment List */
+  .appointment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Appointment Item */
+  .appointment-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Customer Info */
+  .customer-info h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1e3a8a;
+  }
+  
+  .customer-info p {
+    font-size: 1rem;
+    color: #444;
+    margin: 5px 0;
+  }
+  
+  /* No Appointments Message */
+  .no-appointments {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+  }
+  

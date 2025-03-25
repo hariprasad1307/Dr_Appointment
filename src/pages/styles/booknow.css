@@ -1,0 +1,65 @@
+/* Book Now Container */
+.booknow-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Doctor Info */
+  .doctor-info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels */
+  .label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Confirm Booking Button */
+  .confirm-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  
+  .confirm-button:hover {
+    background-color: #2563eb;
+  }
+  

@@ -1,0 +1,130 @@
+/* Center the form on the screen */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Light gray background */
+  }
+  
+  /* Form styling */
+  .login-form {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Header text */
+  .login-form h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input fields */
+  .login-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 100%;
+    background-color: #3b82f6; /* Blue */
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #2563eb; /* Darker blue */
+  }
+  
+  /* Forgot password link */
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-password button {
+    background: none;
+    border: none;
+    color: #3b82f6;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .forgot-password button:hover {
+    color: #2563eb;
+  }
+  
+  /* Doctor login button */
+  .doctor-login {
+    width: 100%;
+    background-color: #10b981; /* Green */
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .doctor-login:hover {
+    background-color: #059669; /* Darker green */
+  }
+  
+  /* Customer login button */
+  .customer-login {
+    width: 100%;
+    background-color: #9333ea; /* Purple */
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .customer-login:hover {
+    background-color: #7e22ce; /* Darker purple */
+  }
+
+  /* Forgot password and signup container */
+.auth-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Forgot password and signup links */
+.auth-links a {
+  text-decoration: none;
+  color: #3b82f6;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.auth-links a:hover {
+  color: #2563eb;
+}
+
+  
